@@ -47,9 +47,38 @@ h2 {
     background-color: #f7b733;
 }
 
+.compartilhar {
+    text-align: center; 
+    padding: 40px 20px;
+    background-color: #fff3e0; 
+    margin-bottom: 40px;
+}
+
 footer {
     background-color: #ff5100;
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+.btn:active {
+    animation: clickPulse 0.2s ease;
+}
+
+@keyframes clickPulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.historia p {
+    text-align: justify;
+    text-justify: inter-word; 
+    text-indent: 2em; 
 }
